@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Practice</title></head>
+    <body>
+      <!--  <body background="C:\Users\pc\Pictures\Camera Roll\apple.jpg" height="150px" width="150px"
+        style="background-size: 100% 440%">
+      <p> 
+                This tag is used to define a paragraph.The paragraph can be aligned to
+                the left ,right,center or justified using the align attributes.
+            </p>
+
+            <p align="right">
+                This tag is used to define a paragraph.The paragraph can be aligned to
+                the left ,right,enter or justified using the align attributes.
+            </p>
+
+            <p align="center">
+                This tag is used to define a paragraph.The paragraph can be aligned to
+                the left ,right,center or justified using the align attributes.
+            </p>
+            <a href="mailto: kiran16abc@gmail.com"> send mail</a>
+
+            <table border="5">
+                <caption>Class Record</caption>
+                <tr>
+                    <th colspan="3">Student details</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Rollno.</th>
+                    <th>course</th>
+                </tr>
+                <tr>
+                    <td>kiran</td>
+                    <td>5</td>
+                    <td>BCA</td>
+
+                </tr>
+                <tr>
+                    <td>komal</td>
+                    <td>15</td>
+                    <td>BCA</td>
+
+                </tr>
+                <tr>
+                    <td>angrez</td>
+                    <td>6</td>
+                    <td>BCA</td>
+
+                </tr>
+
+            </table>-->
+   <form>
+
+        1st Number : <input type="number" name="1st" value="1st" id="1st"> <br><br>
+        2nd Number: <input type="number" name="2nd" value="2nd" id="2nd"><br><br>
+        <button onclick="multiply()" value="Multiply">Multiply</button>
+        <button onclick="Divide()" value="Division">Divide</button>
+
+    </form>
+
+    <script type="text/javascript">
+
+        function multiply(){
+            var value1 = document.getElementById('1st').value;
+            var value2 = document.getElementById('2nd').value;
+            var ans = value1 * value2;
+            document.write("The result is :" + ans);
+           
+        }
+        function Divide(){
+            var value1 = document.getElementById('1st').value;
+            var value2 = document.getElementById('2nd').value;
+            var ans = value1 / value2;
+            document.write("The result is :" + ans);
+        }
+        
+     </script>
+</body>
+</html> 
